@@ -865,6 +865,8 @@ Version:	1.1
 	End About Me
 =========================*/
 
+
+
 /*=======================
 	Testimonial CSS
 =========================*/
@@ -1037,7 +1039,7 @@ Version:	1.1
 }
 #blog .blog-head:hover .blog-link a {
 	-webkit-transform: scale(1.0);
-	-moz-transform: sscale(1.0);
+	-moz-transform: scale(1.0);
 	transform: scale(1.0);
 }
 #blog .blog-head .blog-link a:hover{
@@ -1432,7 +1434,7 @@ Version:	1.1
 	position: relative;
 	float: left;
 }
-#blog.single .prev-next ul{}
+
 #blog.single .prev-next ul li {
 	left: 0;
 	display: inline-block;
@@ -1589,87 +1591,46 @@ Version:	1.1
 #blog .single-comments.login a:hover{
 	color:#353535;
 }
-/*=======================
-	End Blog
-=========================*/
+/* ======================= */
+	/* End Blog */
 
-/*=======================
-  Call to action CSS
-=========================*/ 
-#call-action {
-	position: relative;
-	overflow: hidden;
-	background-image: url('images/hire.jpg');
-	background-size: cover;
-	background-position: center;
-	z-index: 1;
+.div-card{
+	margin-top: 70px;
+	border: 2px solid forestgreen;
+	border-radius: 20px;
+	background-color: #F5F5F5;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-#call-action::after {
-	position: absolute;
-	top: 20px;
-	content: "";
-	width: 80%;
-	height: 330px;
-	background: #000;
-	left: 50%;
-	opacity: 0.8;
-	margin-left: -40%;
-	transform: rotate(6deg);
-	border-radius: 10px;
-	z-index: -2;
+.dev-info{
+	margin-top:140px;
 }
-#call-action::before {
-	position: absolute;
-	top: 20px;
-	content: "";
-	width: 80%;
-	height: 330px;
-	left: 50%;
-	opacity: 0.8;
-	margin-left: -40%;
-	transform: rotate(-6deg);
-	border-radius: 10px;
-	z-index: -2;
+.dev-info h5{
+	color: forestgreen;
+	font-size:20px;
 }
-#call-action .call-action-main {
-	text-align: center;
-	z-index: 5;
+.hire-button .rs-btn{
+	width: 200px;
+	height: 50px;
+	margin-right: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: forestgreen;
+	color: white;
+	border-radius:20px;
 }
-#call-action .call-action-main h2 {
-	color: #fff;
-	text-transform: uppercase;
-	margin-bottom: 25px;
-	font-size: 34px;
-	position: relative;
-	overflow:hidden;
-	display: inline-block;
+.hire-button .hr-btn {
+	width: 130px;
+	height: 50px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius:20px;
+	border: 2px solid forestgreen;
 }
-#call-action .call-action-main p {
-	color: #fff;
-	font-size: 14px;
-	padding: 0 80px;
+.hire-button .hr-btn a{
+	color: forestgreen;
 }
-#call-action .call-action-main .button{
-	margin-top: 25px;
-}
-#call-action .call-action-main .button i{
-	margin-right:5px;
-}
-#call-action .btn {
-	margin: 0;
-	background: #fff;
-	color: #353535;
-}
-#call-action .btn:hover{
-	color:#fff;
-}
-/*=======================
-  End Call to action
-=========================*/ 
-
-/*=======================
   Contact CSS
-=========================*/
+/* ========================= */
 #contact {
 	position: relative;
 	top: 215px;
