@@ -35,6 +35,9 @@
     <!-- Bootstrap Css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
+    <!-- animate div -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- StyleSheet -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/reset.css">
@@ -144,7 +147,7 @@
     <!--/ End Personal Area -->
 
     <!-- Start About Me -->
-    <section id="about-me" class="section">
+    <section id="about-me" class="section" data-aos="fade-up">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12 fix">
@@ -604,7 +607,7 @@
                 <p>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-left">
                     <div class="card div-card">
                         <div style="text-align: center; padding:30px" class="card-body">
                             <img style="width: 60px; margin: 0 auto;" src="images/banner.jpg" alt="">
@@ -617,7 +620,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8" data-aos="fade-right">
                     <div class="dev-info">
                         <h5>This is Atiqur Rahman</h5>
                         <p style="margin-top:30px; margin-bottom:25px; text-align:justify; font-size:16px">I work with
@@ -629,7 +632,7 @@
                             are future-proof.</p>
                     </div>
                     <div class="hire-button">
-                        <button class="rs-btn">Download Resume</button>
+                        <button class="rs-btn"> <a href="https://drive.google.com/file/d/1hx_bgjdKZO_fNaP0Yt8Qu9gYxxeUWhkb/view?usp=sharing" download> Download Resume </a></button>
                         <button class="hr-btn"><a href="#contact"><i class="fa fa-rocket"></i> Hire
                             Me</a></button>
                     </div>
@@ -640,7 +643,7 @@
     
     <!-- My Projects Are -->
 
-    <section style="margin-top:100px; margin-bottom:80px">
+    <section style="margin-top:100px; margin-bottom:80px" id="portfolio">
         <div class="section-title">
             <h1><span>My</span> Latest Work<i class="fa fa-pencil"></i></h1>
             <p>ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
@@ -649,12 +652,12 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="zoom-in">
                     <div style="margin-top:80px" class="image1">
                         <img style="width:600px; height:500px" src="images/project1.png" alt="">
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up-right">
                     <div style="margin-top:140px"">
                         <h3 style=" margin-bottom:20px; color: forestgreen">Exclusion Photography</h3>
                         <p>A full-stack responsive service selling web app. That's also multipage. This app has a user
@@ -676,7 +679,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-down-left">
                     <div style="margin-top:205px"">
                         <h3 style=" margin-bottom:20px; color: forestgreen">The Book House</h3>
                         <p>A full-stack responsive another service selling web app. That's also a multipage app where
@@ -694,19 +697,19 @@
                         ✶React Bootstrap ✶Heroku ✶Firebase ✶HTML ✶CSS
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="zoom-in">
                     <div style="margin-top:80px" class="image1">
                         <img style="width:600px; height:500px" src="images/project2.png" alt="">
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="zoom-in">
                     <div style="margin-top:80px" class="image1">
                         <img style="width:600px; height:500px" src="images/project3.png" alt="">
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-down-right">
                     <div style="margin-top:180px"">
                         <h3 style=" margin-bottom:20px; color:forestgreen">Go Riders</h3>
                         <p>This Project is very simple rider app with react, firebase authentication and react
@@ -733,7 +736,7 @@
     </section>
 
     <!-- Start Testimonials -->
-    <section id="testimonials" class="section" data-stellar-background-ratio="0.3">
+    <section id="testimonials" class="section" data-stellar-background-ratio="0.3" data-aos="zoom-out-down">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
@@ -815,7 +818,7 @@
                 <div class="col-md-12">
                     <div class="blog-carousel">
                         <!-- Single Blog -->
-                        <div class="single-blog">
+                        <div class="single-blog" data-aos="fade-down-right">
                             <div class="blog-head">
                                 <img src="images/rsz_hooks.jpg" alt="" class="img-responsive">
                                 <div class="blog-link">
@@ -842,7 +845,7 @@
                         </div>
                         <!--/ End Single Blog -->
                         <!-- Single Blog -->
-                        <div class="single-blog">
+                        <div class="single-blog" data-aos="fade-up">
                             <div class="blog-head">
                                 <img src="images/redux.jpg" alt="" class="img-responsive">
                                 <div class="blog-link">
@@ -870,7 +873,7 @@
                         </div>
                         <!--/ End Single Blog -->
                         <!-- Single Blog -->
-                        <div class="single-blog">
+                        <div class="single-blog" data-aos="fade-down-left">
                             <div class="blog-head">
                                 <img src="images/react-native.jpg" alt="" class="img-responsive">
                                 <div class="blog-link">
@@ -898,7 +901,7 @@
                         <!--/ End Single Blog -->
 
                         <!-- Single Blog -->
-                        <div class="single-blog">
+                        <div class="single-blog" data-aos="fade-down-left">
                             <div class="blog-head">
                                 <img src="images/rsz_hooks.jpg" alt="" class="img-responsive">
                                 <div class="blog-link">
@@ -925,7 +928,7 @@
                         </div>
                         <!--/ End Single Blog -->
                         <!-- Single Blog -->
-                        <div class="single-blog">
+                        <div class="single-blog" data-aos="fade-down-left">
                             <div class="blog-head">
                                 <img src="images/redux.jpg" alt="" class="img-responsive">
                                 <div class="blog-link">
@@ -953,7 +956,7 @@
                         </div>
                         <!--/ End Single Blog -->
                         <!-- Single Blog -->
-                        <div class="single-blog">
+                        <div class="single-blog" data-aos="fade-down-left">
                             <div class="blog-head">
                                 <img src="images/react-native.jpg" alt="" class="img-responsive">
                                 <div class="blog-link">
@@ -1001,7 +1004,7 @@
             </div>
             <div class="row">
                 <!-- Contact Form -->
-                <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.4s">
+                <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-aos="fade-down-right">
                     <form class="form" method="post" action="mail/mail.php">
                         <div class="row">
                             <div class="col-md-6">
@@ -1030,7 +1033,7 @@
                 </div>
                 <!--/ End Contact Form -->
                 <!-- Contact Address -->
-                <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="0.8s">
+                <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-aos="fade-down-left">
                     <div class="contact">
                         <!-- Single Address -->
                         <div class="single-address">
@@ -1105,6 +1108,13 @@
         </div>
     </footer>
     <!--/ End Footer -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          duration: 2000
+      });
+    </script>
 
     <!-- Jquery -->
     <script type="text/javascript" src="js/jquery.min.js"></script>

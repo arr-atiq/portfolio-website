@@ -55,6 +55,7 @@ Version:	1.1
 	background:rgba(0, 0, 0, 0.36);
 }
 /* Logo */
+
 #header .logo {
 	padding-top: 17px;
 }
@@ -1615,7 +1616,6 @@ Version:	1.1
 	font-size: 16px;
 	font-weight: bold;
 	background-color: forestgreen;
-	color: white;
 	border-radius:20px;
 }
 .hire-button .hr-btn {
@@ -1628,6 +1628,9 @@ Version:	1.1
 }
 .hire-button .hr-btn a{
 	color: forestgreen;
+}
+.hire-button .rs-btn a{
+	color: white;
 }
   Contact CSS
 /* ========================= */
