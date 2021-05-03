@@ -85,7 +85,7 @@ ul li {
 }
 .section-title h1 {
 	font-size: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	padding-bottom: 20px;
 	position: relative;
 	display: inline-block;
@@ -235,28 +235,28 @@ input:-webkit-autofill:focus {
 	top:50%;
 	margin-left:-40px;
 }
-.load-line {
+.k-line {
 	display: inline-block;
 	width: 15px;
 	height: 15px;
 	border-radius: 15px;
 }
-.load-lineEx-1 {
+.k-line11-1 {
 	animation: k-loadingP 2s infinite;
 }
-.load-lineEx-2 {
+.k-line11-2 {
 	animation: k-loadingP 2s infinite;
 	animation-delay: .15s;
 }
-.load-lineEx-3 {
+.k-line11-3 {
 	animation: k-loadingP 2s infinite;
 	animation-delay: .30s;
 }
-.load-lineEx-4 {
+.k-line11-4 {
 	animation: k-loadingP 2s infinite;
 	animation-delay: .45s;
 }
-.load-lineEx-5 {
+.k-line11-5 {
 	animation: k-loadingP 2s infinite;
 	animation-delay: .60s;
 }
